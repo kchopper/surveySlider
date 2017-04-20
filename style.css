@@ -1,0 +1,152 @@
+@font-face {
+    font-family: roboto-medium;
+    src: url(./Assets/fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: slab-regular;
+    src: url(./Assets/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: meduim-italic;
+    src: url(./Assets/fonts/Roboto-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: robo-slab;
+    src: url(./Assets/fonts/RobotoSlab-Regular.ttf);
+}
+
+body{
+    background-color: #8da1a9 !important;
+}
+
+a{
+    color: #F6A623 !important;
+}
+
+
+.first-case{
+    width: 625px;
+}
+
+.panel {
+    border: none !important;
+}
+
+.panel-heading{
+    color: #b3c7cf !important;
+    font-size: 20px;
+    height: 45px;
+    background: #648694 !important;
+    font-family: roboto-medium;
+}
+
+.panel-body{
+    height: 415px;
+}
+
+.quote{
+    margin-top:25px;
+}
+
+.mid-section{
+    margin-top: 35px;
+    font-family: robo-slab;
+    font-size: 22px;
+    color: #6B7D86;
+    line-height: 34px;
+}
+
+.bot-section{
+    font-family: roboto-medium;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: underline;
+    bottom: 40px;
+    position: absolute;
+    /* text-align: center; */
+    margin-left: 139px;
+}
+
+.button-right{
+    float: right;
+    margin-right: -70px;
+    cursor: pointer;
+    background:url(./Assets/img/scrollright.png) no-repeat;
+    background-size: cover;
+    transform: rotate(180deg);
+    cursor:pointer;
+    border:none;
+}
+
+.button-left{
+    float: left;
+    margin-left: -70px;
+    background:url(./Assets/img/scrollright.png) no-repeat;
+    background-size: cover;
+    cursor:pointer;
+    border:none;
+}
+
+.panel-body{
+    text-align: center;
+}
+
+.panel-footer{
+    background: #648694 !important;
+    height: 14px;
+}
+
+.owl-page.active span{
+    background-color: orange !important;
+}
+
+.owl-page span{
+    background-color: floralwhite !important;
+}
+
+.question-set{
+    margin-top: 200px;
+    text-align: center;
+    color: floralwhite;
+    height: 458px;
+}
+
+
+
+.question-header{
+    font-family: meduim-italic;
+    font-size: 20px;
+}
+
+.question{
+    font-family: roboto-medium;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.bool-btns{
+    bottom: 175px;
+    position: absolute;
+    margin-left: 266px;
+}
+
+.yes-bottom{
+    background: url(./Assets/img/yesbottom.png) no-repeat;
+    background-size: cover;
+    cursor:pointer;
+    border:none;
+    margin-top:194px;
+    width:35px;
+}
+
+.no-bottom{
+    background: url(./Assets/img/nobottom.png) no-repeat;
+    background-size: cover;
+    cursor:pointer;
+    border:none;
+    margin-top:194px;
+    width: 35px;
+}
